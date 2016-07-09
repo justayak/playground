@@ -85,10 +85,10 @@ def un_vectorize(R, square=True, w=None, h=None):
         
     if square:
         if channels == 0:
-            w = R.shape[1]/2
+            w = int(math.sqrt(R.shape[1]))
             h = w
         else:
-            w = R.shape[2]/2
+            w = int(math.sqrt(R.shape[2]))
             h = w
         
     count = R.shape[0]
