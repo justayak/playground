@@ -25,8 +25,8 @@ def plot_mats(mats, cols=5, cmap=plt.get_cmap('gray'), size=16):
         M = mats[i]
         minv = np.min(M)
         maxv = np.max(M)
-        if minv < 0 or minv > 255 or maxv < 0 or maxv > 255:
-            M = translate(M, minv, maxv, 0, 255)
+        #if minv < 0 or minv > 255 or maxv < 0 or maxv > 255:
+        #    M = translate(M, minv, maxv, 0, 255)
 
         if i%cols == 0:
             if len(currentRow) > 0:
