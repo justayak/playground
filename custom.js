@@ -54,7 +54,6 @@ $(function() {
 
                                         kernel.execute(code);   
                                     }
-
                                 }
                             }
                         }
@@ -72,7 +71,6 @@ $(function() {
                         });
 
                         for (i = 0; i < lookup.length; i++) {
-
                             elem = lookup[i];
                             painter = elem['painter']
                             if (typeof painter === 'undefined') {
@@ -81,16 +79,10 @@ $(function() {
                                     elem['painter'] = $('img', painter);
                                 }
                             }
-
                         }
-
-
                     }, 500);
-                
-                
                 }
             }
-            
         });
         
         

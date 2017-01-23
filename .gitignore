@@ -1,5 +1,6 @@
 .ipynb_checkpoints/
 juju.py
 mnist.pkl.gz
+*.swp
 .data/
 __pycache__
