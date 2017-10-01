@@ -2,6 +2,7 @@
 juju.py
 MNIST_data/
 mnist.pkl.gz
+*.eps
 *.swp
 .data/
 __pycache__
